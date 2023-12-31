@@ -11,7 +11,6 @@ const Project = () => {
   if (loading) {
     return <Loading />;
   }
-  console.log(projectData);
 
   return (
     <section className="p-10 flex flex-col select-none items-center justify-center w-full -mt-14">
