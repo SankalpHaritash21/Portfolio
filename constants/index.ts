@@ -132,7 +132,7 @@ export const work = [
   {
     id: 1,
     type: "Work",
-    date: `Jan 20021 - present`,
+    date: `Jan 2021 - present`,
     title: "Front End Development",
   },
   {
