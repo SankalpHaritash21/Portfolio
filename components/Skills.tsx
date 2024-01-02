@@ -14,8 +14,8 @@ export default function Skills() {
       className="w-full scroll-mt-28 -mt-14 text-center sm:mb-40 roundedxl p-4 min-h-screen"
     >
       <div className="max-w-[53rem] flex flex-col items-center justify-center mt-40">
-        <div className="text-2xl md:text-3xl font-bold text-start w-full link-underline">
-          My skills:
+        <div className="text-2xl md:text-3xl font-bold text-start w-full">
+          <h1 className="link-underline w-fit">My skills:</h1>
         </div>
         <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800 mt-10">
           {skillsData.map((skills, index) => (

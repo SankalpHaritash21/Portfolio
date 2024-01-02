@@ -126,14 +126,14 @@ export const work = [
   {
     id: 1,
     type: "Work",
-    date: `Jan 2022 - present`,
-    title: "MERN Stack Development",
+    date: `Jan 2021 - present`,
+    title: "Front End Development",
   },
   {
     id: 1,
     type: "Work",
-    date: `Jan 2021 - present`,
-    title: "Front End Development",
+    date: `Jan 2022 - present`,
+    title: "MERN Stack Development",
   },
   {
     id: 1,

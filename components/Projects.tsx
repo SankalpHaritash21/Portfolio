@@ -19,10 +19,12 @@ const Project = () => {
       </div>
       <div className="-mt-2 md:-mt-56 w-full flex flex-col items-center justify-center mx-10">
         <div className="md:px-16 w-full">
-          <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12 w-full flex justify-start link-underline">
-            My Projects
+          <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12 w-full flex justify-start">
+            <h1 className="link-underline w-fit text-2xl md:text-3xl font-bold">
+              My Projects:
+            </h1>
           </h2>
-          <h2 className="text-xl">
+          <h2 className="text-sm md:text-xl">
             Following projects showcases my skills and experience through
             real-world examples of my work. Each project is briefly described
             with links to code repositories and live demos in it. It reflects my

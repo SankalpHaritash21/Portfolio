@@ -25,7 +25,7 @@ const ProjectCard = ({
 
       <div className="relative p-4">
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
-        <p className="mt-2 text-gray-300">{description}</p>
+        <p className="mt-2 text-gray-300 text-sm md:text-base">{description}</p>
       </div>
       <div className="flex justify-between md:px-10">
         <Link
