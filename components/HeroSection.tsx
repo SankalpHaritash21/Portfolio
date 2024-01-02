@@ -19,22 +19,22 @@ const HeroSection = () => {
         >
           <h1 className="text-white w-full md:w-auto  mt-2 md:mt-0  mb-4 text-2xl md:text-4xl lg:text-7xl lg:leading-normal font-bold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">
-              Hello, I&apos;m{" "}
+              Hi, I&apos;m
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
                 "Sankalp Haritash",
-                1000,
+                2000,
                 "Web Developer",
-                1000,
+                2000,
                 "MERN Developer",
-                1000,
+                2000,
                 "Next.js Developer",
                 1000,
               ]}
               wrapper="span"
-              speed={40}
+              speed={20}
               repeat={Infinity}
             />
           </h1>
@@ -55,7 +55,7 @@ const HeroSection = () => {
           <div className="mt-10 md:mt-10 w-full flex flex-col md:flex-row justify-start">
             <Link
               href="/contact"
-              className="flex items-center justify-center px-4 py-1 w-56 md:w-fit rounded-full md:mr-4 bg-gradient-to-br from-blue-500 via-purple-400 to-red-500 hover:bg-slate-200 text-white hover:text-black font-bold"
+              className="flex items-center justify-center px-2 py-2 md:py-0 w-56 md:w-fit rounded-full md:mr-2 bg-gradient-to-br from-blue-500 via-purple-400 to-red-500 hover:bg-slate-200 text-white hover:text-black font-bold"
             >
               <h1>Let&lsquo;s Connect</h1>
             </Link>

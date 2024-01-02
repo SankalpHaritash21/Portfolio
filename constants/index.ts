@@ -31,25 +31,6 @@ export const Contact = [
 export const resume =
   "https://drive.google.com/file/d/1AbC4DzNx0tDteN2OmBy4UJdt9L9JCL10/view?usp=drivesdk";
 
-export const skillsDataa = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "Framer Motion",
-] as const;
-
 export const educationData = [
   {
     id: 1,
@@ -71,7 +52,7 @@ export const educationData = [
     id: 3,
     type: "Education",
     date: "2022 - 2023",
-    title: "Stack Web Developer Bootcamp (MERN Stack)",
+    title: "Full Stack Web Developer Bootcamp (MERN Stack)",
     place: "B K Birla Institue of Engineering & Technology, Pilani",
     body: "This was the start of my first formal coding studies. I had previously built websites using Shopify, Wordpress.org and Squarespace, but I was interested in learning how to code complex software from scratch. During the bootcamp I learnt HTML, CSS, Javascript, Node.js and React.",
   },
