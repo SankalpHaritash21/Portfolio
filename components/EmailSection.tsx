@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import GithubIcon from "@/public/github-icon.svg";
 import LinkedinIcon from "@/public/linkedin-icon.svg";
+import Hashnode from "@/public/Images/hashnode.svg";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -71,6 +72,15 @@ const EmailSection = () => {
               target="_blank"
             >
               <Image src={LinkedinIcon} alt="Linkedin Icon" />
+            </Link>
+            <Link href="https://sankalp-haritash.hashnode.dev/" target="_blank">
+              <Image
+                src={Hashnode}
+                alt="Hashnode Sankalp Haritash"
+                width={40}
+                height={40}
+                className="rounded-xl bg-white"
+              />
             </Link>
           </div>
         </div>
