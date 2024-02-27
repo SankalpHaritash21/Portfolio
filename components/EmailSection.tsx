@@ -5,6 +5,7 @@ import LinkedinIcon from "@/public/linkedin-icon.svg";
 import Hashnode from "@/public/Images/hashnode.svg";
 import Link from "next/link";
 import Image from "next/image";
+import { Button } from "./ui/moving-border";
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -154,12 +155,13 @@ const EmailSection = () => {
                 placeholder="Let's talk about..."
               />
             </div>
-            <button
+            <Button
+              className="bg-transparent dark:bg-slate-900 text-white dark:text-white border-neutral-200 dark:border-slate-800"
+              duration={5000}
               type="submit"
-              className="text-sm md:text-lg lg:text-xl bg-gradient-to-br from-blue-500 via-purple-400 to-red-500 hover:bg-purple-600 text-white font-medium py-2.5 px-5 rounded-lg w-36 md:w-60"
             >
               Send Message
-            </button>
+            </Button>
           </form>
         )}
       </div>
