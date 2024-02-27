@@ -2,6 +2,7 @@ import { Project } from "@/types/type";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { BackgroundGradient } from "../ui/background-gradient";
 
 const ProjectCard = ({
   id,
@@ -14,13 +15,13 @@ const ProjectCard = ({
   image,
 }: Project) => {
   return (
-    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] p-2 w-96">
+    <BackgroundGradient className="rounded-[22px] relative overflow-hidden bg-zinc-900 shadow-lg border border-[#2A0E61] p-2 w-72 md:w-96 h-full">
       <Image
         src={image.url}
         alt={title}
         width={250}
         height={250}
-        className="w-full object-contain"
+        className="w-full object-contain rounded-[22px]"
       />
 
       <div className="relative p-4">
@@ -71,7 +72,7 @@ const ProjectCard = ({
           </svg>
         </Link>
       </div>
-    </div>
+    </BackgroundGradient>
   );
 };
 
