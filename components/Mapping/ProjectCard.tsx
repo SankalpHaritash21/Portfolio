@@ -50,6 +50,7 @@ const ProjectCard = ({
             />
           </svg>
         </Link>
+
         <Link
           href={github}
           target="_blank"
