@@ -53,7 +53,7 @@ const HeroSection = () => {
             adapt to your time zone needs. I&lsquo;m excited to contribute to
             your next project. Let&lsquo;s connect.
           </p>
-          <div className="mt-10 md:mt-10 w-full flex flex-col  md:flex-row justify-start">
+          <div className="mt-10 md:mt-10 w-full flex flex-col md:flex-row justify-start">
             <Link
               href="/contact"
               className="flex items-center justify-center px-2 py-2 md:py-0 w-56 md:w-fit rounded-full md:mr-2 hover:bg-slate-900 text-white hover:text-black font-bold"
@@ -67,10 +67,10 @@ const HeroSection = () => {
             </Link>
             <Link
               href={resume}
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full hover:bg-slate-800 text-white mt-3 font-bold hover:text-black"
+              className="px-1 -translate-x-12 md:translate-x-0 inline-block py-1 w-full sm:w-fit rounded-full hover:bg-slate-800 text-white mt-3 font-bold hover:text-black"
             >
               <Button
-                className="bg-transparent dark:bg-slate-900 text-white dark:text-white border-neutral-200 dark:border-slate-800"
+                className="bg-transparent dark:bg-slate-900 text-white dark:text-white border-neutral-200 dark:border-slate-800 "
                 duration={5000}
               >
                 <h1>Download CV</h1>
