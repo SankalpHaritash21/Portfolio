@@ -29,7 +29,7 @@ export const Contact = [
 ];
 
 export const resume =
-  "https://drive.google.com/file/d/1AbC4DzNx0tDteN2OmBy4UJdt9L9JCL10/view?usp=drivesdk";
+  "https://drive.google.com/file/d/12SUPEDP1YNAXeu-7nD3tEwgV1By6Nf6i/view?usp=sharing";
 
 export const educationData = [
   {
